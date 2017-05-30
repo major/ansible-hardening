@@ -40,7 +40,9 @@ python-openssl              [platform:dpkg]
 python-ndg-httpsclient      [platform:ubuntu !platform:ubuntu-trusty]
 python2-pyasn1              [platform:rpm]
 python2-pyOpenSSL           [platform:rpm]
-python-ndg_httpsclient      [platform:rpm]
+# NOTE(mhayden): Skipping this package temporarily to work around some EPEL
+# issues in the gate.
+#python-ndg_httpsclient      [platform:rpm]
 
 # Required for compressing collected log files in CI
 gzip
