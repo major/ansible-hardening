@@ -1,5 +1,4 @@
-ansible-hardening
-==========================
+![ansible-hardening-logo](doc/source/_static/ansible-hardening-logo.png)
 
 The openstack-ansible security role applies security hardening configurations
 from the [Security Technical Implementation Guide(STIG)](http://iase.disa.mil/stigs/Pages/index.aspx)
